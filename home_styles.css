@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/* Main page header settings */
+
+html {
+    max-height: 100%;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Inconsolata', monospace;
+}
+
+img#background {
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.flicker{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+
+.largeHeader {
+    font-family: 'Inconsolata', monospace;
+    color: white;
+}
+
+#openH1 {
+    font-size: 8em;
+}
+
+#openH2 {
+    font-size: 6em;
+    margin-left: 70%;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}

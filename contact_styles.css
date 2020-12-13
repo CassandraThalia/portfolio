@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+#email a{
+    color: white;
+}
+
+#map {
+    padding-top: 10%;
+    filter: grayscale(100%);
+}
