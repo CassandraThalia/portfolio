@@ -1,10 +1,17 @@
 @charset "utf-8";
 
-#email a{
+.contactCont{
+    padding: 50px 100px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.contactCont a{
     color: white;
 }
 
 #map {
-    padding-top: 10%;
+    width: 100%;
+    height: 300%;
     filter: grayscale(100%);
 }

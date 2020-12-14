@@ -1,5 +1,5 @@
 
-setInterval(remColor, 500);
+setInterval(remColor, 1000);
  
 function remColor() {
     var image = document.getElementById("background");
@@ -8,7 +8,7 @@ function remColor() {
     }
 }
 
-setInterval(getColor, 650)
+setInterval(getColor, 800)
 
 function getColor() {
     var image = document.getElementById("background");

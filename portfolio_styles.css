@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* General settings */
+/* General settings for entire portfolio website */
 
 html {
     max-height: 100%;
@@ -38,12 +38,14 @@ img#background {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* Hide scrollbar for Chrome, Safari and Opera */
+/* Hide scrollbar for Chrome, Safari and Opera (From W3C) */
+
 .mainCont::-webkit-scrollbar {
     display: none;
 }
 
 .navLinks li a{
+    font-size: 1.1em;
     color: white;
 }
 
