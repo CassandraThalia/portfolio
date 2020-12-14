@@ -16,6 +16,10 @@
     filter: grayscale(100%);
 }
 
+.mainCont h1 {
+    color: #fff158;
+}
+
 #introImg {
     margin-top: 5%;
 }

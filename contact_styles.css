@@ -18,3 +18,7 @@
     height: 500px;
     filter: grayscale(100%);
 }
+
+#contactTitle {
+    color: #fff158;
+}
