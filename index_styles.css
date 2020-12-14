@@ -9,8 +9,6 @@ html {
 body {
     overflow: hidden;
     font-family: 'Inconsolata', monospace;
-    opacity: 1;
-    transition-duration: 2s;
 }
 
 .fadeOut{
@@ -31,28 +29,17 @@ img#background {
     filter: grayscale(100%);
 }
 
-
-.largeHeader {
+#largeHeader {
     font-family: 'Inconsolata', monospace;
     color: white;
+    transition-duration: 3s;
 }
 
-#openH1 {
+#largeHeader h1 {
     font-size: 8em;
 }
 
-#openH2 {
+#largeHeader h2 {
     font-size: 6em;
     float: right;
-}
-
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover{
-    color: white;
-    text-shadow: 5px 5px 10px black;
 }
