@@ -25,12 +25,14 @@ img#background {
     filter: grayscale(100%);
 }
 
+h1 {
+    font-size: 2em;
+}
 /* Main Container Settings */
 
 .mainCont {
     height: 650px;
     color: white;
-    font-size: 1.4em;
     line-height: 2.5em;
     overflow: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
@@ -49,5 +51,10 @@ img#background {
     color: white;
 }
 
+#indexLink a{
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+}
 
 

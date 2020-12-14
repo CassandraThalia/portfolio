@@ -7,7 +7,7 @@
       Author: Cassandra Curtis
       Date:   Dec 1, 2020
 
-      Filename:   index.html
+      Filename: contact.html
    -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,13 +20,15 @@
     <link href="portfolio_styles.css" rel="stylesheet" /> 
     <link href="contact_styles.css" rel="stylesheet" /> 
 </head>
+
 <body>
     <script src="portfolio.js"></script>
     <img id="background" src="mtlWhiteLights.jpg">
 
     <div class="container-md">
-        <div class="row">
-            <div class="nav nav-tabs justify-content-end sticky-top navLinks"> 
+        <div class="row border-bottom border-light">
+            <div class="col-4 align-self-center" id="indexLink"><a href="index.html">Cassandra Curtis | Portfolio</a></div>
+            <div class="col-8 nav nav-tabs justify-content-end sticky-top navLinks"> 
                 <li class="nav-item"><a class="nav-link" href="skillsandgoals.html">Skills & Goals</a></li>
                 <li class="nav-item"><a class="nav-link active" href="contact.html" aria-current="page">Contact</a></li>
                 <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
@@ -38,15 +40,15 @@
 
     <article class="container mainCont">
 
-        <div class="row contactCont">
-            <p class="col" id="email">Contact me at <a href="mailto:cassandra.t.curtis@gmail.com">cassandra.t.curtis@gmail.com</a></p>
-        </div>
         <div class="row gy-4 contactCont">
-            <p class="col" id="linkedIn">View my <a href="https://www.linkedin.com/in/cassandra-curtis-83b016134/">LinkedIn</a></p>
+            <div class="col" id="email">Contact me at <a href="mailto:cassandra.t.curtis@gmail.com">cassandra.t.curtis@gmail.com</a></div>
+        </div>
+        <div class="row contactCont">
+            <div class="col gy-4" id="linkedIn">View my <a href="https://www.linkedin.com/in/cassandra-curtis-83b016134/">LinkedIn</a></div>
         </div>
 
-        <div class="row gy-4 contactCont">
-            <p class="col">Location</p>
+        <div class="row contactCont">
+            <p class="col gy-4">Location</p>
             <p><iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90775.02379536926!2d-63.638087241619615!3d44.68450764666446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a23ddf20334b3%3A0xda5007be195731e7!2sDartmouth%2C%20NS!5e0!3m2!1sen!2sca!4v1607831668558!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
         </div>
 

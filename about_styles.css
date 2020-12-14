@@ -1,6 +1,21 @@
 @charset "utf-8";
 
+.mainCont {
+    text-align: center;
+    font-size: 1.3em;
+}
+
 #info {
     padding: 50px 100px;
-    text-align: center;
+
+}
+
+.mainCont > img {
+    width: 20%;
+    height: auto;
+    filter: grayscale(100%);
+}
+
+#introImg {
+    margin-top: 5%;
 }
