@@ -30,7 +30,7 @@ img#background {
 .mainCont {
     height: 650px;
     color: white;
-    line-height: 2.5em;
+    line-height: 1.8em;
     overflow: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
