@@ -29,7 +29,6 @@ img#background {
 /* Main Container Settings */
 
 .mainCont {
-    border-top: 1px solid white;
     height: 650px;
     color: white;
     line-height: 1.8em;
@@ -65,6 +64,7 @@ button {
 
 #barNav {
     display: block;
+    border-bottom: 2px solid white;
 }
 
 @media (max-width: 768px) {
