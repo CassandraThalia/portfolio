@@ -58,10 +58,6 @@ img#background {
     text-decoration: none;
 }
 
-button {
-    display: none;
-}
-
 #barNav {
     display: block;
     border-bottom: 2px solid white;
@@ -78,25 +74,7 @@ button {
 @media (max-width: 576px) { 
 
     .mainCont {
-        position: fixed;
-        height: 650px;
-        color: white;
-        line-height: 1.5em;
-        overflow: scroll;
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
-        background-color: rgba(0, 0, 0, 0.5);
-        border-top: 2px solid white;
-    }
-
-    #barNav {
-        display: none;
-    }
-
-    button {
-        display: block;
-        background: none;
-        border: none;
+        line-height: 1.4em;
     }
 
     #navIcon{
