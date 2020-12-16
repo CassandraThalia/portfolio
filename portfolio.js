@@ -17,5 +17,21 @@ function getColor() {
     }
 }
 
+function showNavbar() {
+    var x = document.getElementById("barNav");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+}
 
+function resizeChanges(){
+    var x = document.getElementById("barNav");
+    if (window.innerWidth < 500) {
+        x.classList.remove("container-md")
+    }
+}
+
+window.onload=resizeChanges;
 

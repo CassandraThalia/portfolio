@@ -7,3 +7,12 @@
 .rowTitle {
     color: #fff158;
 }
+
+@media (max-width: 575.98px) { 
+    
+    .workCol {
+        margin-top: 10px;
+    }
+
+
+}
