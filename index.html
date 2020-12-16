@@ -17,23 +17,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet"> 
     <link href="reset.css" rel="stylesheet">
-    <link href="index_styles.css" rel="stylesheet" />  
     <link href="portfolio_styles.css" rel="stylesheet" />
-    <img id="background" src="mtlPinkandWhite.jpg">
-
+    <link href="index_styles.css" rel="stylesheet" />  
 
 </head>
 
 <body>
+    <script src="portfolio.js"></script>
+    <img id="background" src="mtlPinkandWhite.jpg">
+    <button onclick="showNavbar()"><img id="navIcon" src="navIcon.png"></button>
 
-    <div class="container-md">
+    <div class="container" id="barNav">
         <div class="row border-bottom border-light">
-            <div class="col-4 align-self-center" id="indexLink"><a href="index.html">Cassandra Curtis | Portfolio</a></div>
-            <div class="col-8 nav nav-tabs justify-content-end sticky-top navLinks"> 
-                <li class="nav-item"><a class="nav-link" href="skillsandgoals.html">Skills & Goals</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                <li class="nav-item"><a class="nav-link active" href="about.html" aria-current="page">About</a></li>
+            <div class="col-4 align-self-center" id="indexLink"><a href="index.html">CC | Portfolio</a></div>
+            <div class="col nav nav-tabs justify-content-end navLinks"> 
+                <li class="nav-item align-self-baseline"><a class="nav-link" href="skillsandgoals.html">Skills & Goals</a></li>
+                <li class="nav-item align-self-baseline"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item align-self-baseline"><a class="nav-link" href="resume.html">Resume</a></li>
+                <li class="nav-item align-self-baseline"><a class="nav-link" href="about.html">About</a></li>
             </div>
         </div>
     </div>

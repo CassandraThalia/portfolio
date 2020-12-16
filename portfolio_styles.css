@@ -35,7 +35,7 @@ img#background {
     overflow: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera (From W3C) */
@@ -44,9 +44,12 @@ img#background {
     display: none;
 }
 
+/* Navbar Settings */
+
 .navLinks li a{
     font-size: 1.1em;
     color: white;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 #indexLink a{
@@ -55,16 +58,29 @@ img#background {
     text-decoration: none;
 }
 
-#navIcon{
+button {
     display: none;
 }
 
-@media (max-width: 575.98px) { 
+#barNav {
+    display: block;
+}
+
+@media (max-width: 768px) {
+
+    #indexLink {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 576px) { 
 
     .mainCont {
+        position: fixed;
         height: 650px;
         color: white;
-        line-height: 1.2em;
+        line-height: 1.5em;
         overflow: scroll;
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
@@ -76,20 +92,23 @@ img#background {
         display: none;
     }
 
-    #navIcon{
+    button {
         display: block;
+        background: none;
+        border: none;
+    }
+
+    #navIcon{
         width: 12%;
         height: 100%;
         float: right;
         margin: 10px;
     }
-
-    .navLinks li a{
-        background-color: black;
-        color: white;
-        display: block;
-    }
     
+    .navLinks li a{
+        font-size: 0.8em;
+    }
+
 }
 
 

@@ -25,13 +25,3 @@ function showNavbar() {
       x.style.display = "block";
     }
 }
-
-function resizeChanges(){
-    var x = document.getElementById("barNav");
-    if (window.innerWidth < 500) {
-        x.classList.remove("container-md")
-    }
-}
-
-window.onload=resizeChanges;
-
