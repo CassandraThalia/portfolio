@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.mainCont{
+    padding: 50px 100px; 
+}
+
+.goalsCont ul li, .skillsCont ul li {
+    font-size: .5em;
+    padding-top: 3%;
+    list-style:circle;
+}
+
+.pageTitle, .secTitle{
+    color: #fff158
+}
+
+.secTitle{
+    font-size: 0.7em;
+}
+
+@media (max-width: 575.98px) { 
+
+
+
+}
