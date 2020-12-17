@@ -7,7 +7,7 @@
 .goalsCont ul li, .skillsCont ul li {
     font-size: .5em;
     padding-top: 3%;
-    list-style:circle;
+    list-style: none;
 }
 
 .pageTitle, .secTitle{
