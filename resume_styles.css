@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+/* StyleSheet for RESUME Page */
+
 .mainCont{
     font-size: 1.2em;
 }
@@ -8,11 +10,14 @@
     color: #fff158;
 }
 
+.lastCol {
+    padding-bottom: 80px;
+}
+
 @media (max-width: 768px) { 
     
     .workCol {
         margin-top: 10px;
     }
-
 
 }

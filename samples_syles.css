@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* StyleSheet for SAMPLES Page */
+
+.mainCont {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.mainCont h1 {
+    color: #fff158;
+}
+
+.subtitle {
+    text-decoration: underline;
+}
+
+iframe {
+    background-color: white;
+}

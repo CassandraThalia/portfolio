@@ -1,5 +1,6 @@
 @charset "utf-8";
-/* General settings for entire portfolio website */
+
+/* StyleSheet for Entire Portfolio */
 
 html {
     max-height: 100%;
@@ -63,7 +64,8 @@ img#background {
     border-bottom: 2px solid white;
 }
 
-@media (max-width: 768px) {
+/* Hide INDEX link when it forces tabs to drop */
+@media (max-width: 992px) {
 
     #indexLink {
         display: none;
@@ -71,9 +73,12 @@ img#background {
     
 }
 
+
+/* Phone Screen Settings */
 @media (max-width: 576px) { 
 
     .mainCont {
+        height: fit-content;
         line-height: 1.4em;
     }
 
@@ -85,8 +90,8 @@ img#background {
     }
     
     .navLinks li a{
-        font-size: 0.8em;
-        padding: 5px 10px;
+        font-size: 0.7em;
+        padding: 3px 3px;
     }
 
 }

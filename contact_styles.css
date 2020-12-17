@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+/* StyleSheet for CONTACT Page */
+
 .mainCont{
     padding: 50px 100px; 
     text-align: center;
@@ -23,8 +25,20 @@
     color: #fff158;
 }
 
-@media (max-width: 575.98px) { 
+@media (max-width: 576px) { 
 
+    .mainCont {
+        padding: 10px 30px;
+    }
+
+    #map{
+        display: none;
+    }
+
+    .contactCont a{
+        color: white;
+        font-size: .8em;
+    }
 
 
 }

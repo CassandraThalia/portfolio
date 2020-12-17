@@ -1,4 +1,7 @@
+// JavaScript for Entire Portfolio
 
+
+// Remove colour at interval
 setInterval(remColor, 1000);
  
 function remColor() {
@@ -8,6 +11,7 @@ function remColor() {
     }
 }
 
+// Set colour at interval
 setInterval(getColor, 800)
 
 function getColor() {
